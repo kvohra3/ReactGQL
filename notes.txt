@@ -1,0 +1,23 @@
+Express/GraphQL
+
+  app.use -> middleware for functions
+    middleware used to intercept/modify requests coming to server
+
+  User makes request -> express checks for gql
+    -> yes: go to gql; -> send resp to user
+    -> no: skip -> send resp to user
+
+  Schemas
+    contains all knowledge required for telling gql how data looks like
+      props of each obj
+      relation b/w objs
+
+  Queries
+    root -> allows us to jump in data (entry point of data)
+      i.e. find user w. id 23
+
+
+  Types:
+    ID
+    String
+    Bool
